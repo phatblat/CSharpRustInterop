@@ -2,6 +2,11 @@
 name = "cs_call_rst"
 version = "0.1.0"
 edition = "2021"
+authors = ["Ben Chatelain <ben@octop.ad>"]
+
+[lib]
+crate-type = ["dylib"]
+name = "our_rust"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
