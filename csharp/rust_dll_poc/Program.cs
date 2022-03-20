@@ -11,7 +11,7 @@ public static class RustTest
     {
         Console.WriteLine("Calling into rust");
         var addedNumbers = add_numbers(10, 5);
-        Console.WriteLine(addedNumbers);
+        Console.WriteLine($"Returned value: {addedNumbers}");
         Console.ReadLine();
     }
 }
