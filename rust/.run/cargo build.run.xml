@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="cargo build" type="ShConfigurationType">
-    <option name="SCRIPT_TEXT" value="cargo build; nm -gU target/debug/libcs_call_rst.dylib | grep add_numbers" />
+    <option name="SCRIPT_TEXT" value="cargo build; nm -gU target/debug/libcs_call_rst.dylib | grep -E '(add_numbers)|(get_simple_struct)'" />
     <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
     <option name="SCRIPT_PATH" value="" />
     <option name="SCRIPT_OPTIONS" value="" />
